@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+}
+header{
+    /*border: solid;*/
+    height: 70px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+#logo{
+    /*border: solid;*/
+    width: 200px;
+    position: absolute;
+    left: 100px;
+    margin: auto;
+    align-items: center;
+
+
+}
+#menu:hover {
+    color: gray;
+    transform: .3s;
+}
+
+#menu{
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+} 
+
+#banner2 {
+    border: solid black 3px;
+    width: 100vw;
+    height: 60vh;
+    
+}
+    
+#banner{
+    /* border: solid; */
+    height: 60vh;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(banner.jpeg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    -webkit-box-shadow: 9px 27px 20px -1px rgba(194,194,194,1);
+    -moz-box-shadow: 9px 27px 20px -1px rgba(194,194,194,1);
+    box-shadow: 9px 27px 20px -1px rgba(194,194,194,1);
+    text-shadow: 1px 1px 2px black;
+}
+#productos{
+   /*border: solid;*/
+    height: 60vh;
+    /* background-color: rgb(213, 213, 213); */
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 2rem;
+
+}
+#productos2{
+    /*border: solid;*/
+     height: 50vh;
+     /* background-color: rgb(213, 213, 213); */
+     display: flex;
+ 
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     padding: 0 2rem;
+}
+.Block{
+    /*border: solid;*/
+    height: 300px;
+    width:  300px;
+    -webkit-box-shadow: 9px 27px 20px -1px rgba(207,207,207,1);
+-moz-box-shadow: 9px 27px 20px -1px rgba(207,207,207,1);
+box-shadow: 9px 27px 20px -1px rgba(207,207,207,1);
+background-image: url(https://i.ytimg.com/vi/MvmOnvm-Ui8/maxresdefault.jpg);
+border-radius: 15px;
+
+     
+}
+
+.innerblocks{
+    
+    height: 50%;
+    background-image: url(gemas\ 1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    }
+.bottomblock{
+    
+    height: 50%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+}
+
+#asd{
+    /*border: solid;*/
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(67, 66, 66);
+
+}
+#innerblock1{
+    background-size: cover;
+    background-position: center center;
+}
+
+#innerblock2{
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fbrawlstars%2F897cfd035b2c80997ed229adaf17755c.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+
+#innerblock3{
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fbrawlstars%2Fc268ba8fce162e6d943486dd76e34150.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+
+#innerblock4{
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fbrawlstars%2F5209916bb3163ec06cf1f8579ec5b243.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+
+#innerblock5{
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fbrawlstars%2F92144a6b8a09e3f9eab8f233113e3bca.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+
+#innerblock6{
+    background-image: url(https://store.supercell.com/_next/image?url=%2Fimages%2Fbrawlstars%2F5b359823b45a89eb468465c318290150.png&w=640&q=100);
+    background-size: cover;
+    background-position: center center;
+}
+
+input{
+    border-bottom: 0;
+    background-color: black;
+    color: white;
+    width: 6vw;
+    height: 4vh;
+    border-radius: 15px;
+}
+#signin{
+    /*border: solid;*/
+    width: 10vw;
+    height: 5vh;
+    right: 50px;
+    position: absolute;
+
+}
+
+p{
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    
+}
